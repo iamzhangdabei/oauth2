@@ -1,3 +1,4 @@
+# change :text => lambda{|body| MultiJson.decode(body) rescue body } in oauth2/response.rb line 52 to fit sina oauth
 # OAuth2 [![Build Status](https://secure.travis-ci.org/intridea/oauth2.png?branch=master)][travis] [![Dependency Status](https://gemnasium.com/intridea/oauth2.png?travis)][gemnasium]
 A Ruby wrapper for the OAuth 2.0 specification. This is a work in progress,
 being built first to solve the pragmatic process of connecting to existing
